@@ -1,4 +1,11 @@
 from Calculadora import Calculadora
+#OTRO METODO 
+#n1 = input("ingresa valor: ")
+#n2 = input("ingresa valor: ")
+#c = Calculadora(n1, n2)
+#print(c) #para el caso de def str
+#c.mostrar_resultado() #para el caso de mostrar_resultado
+
 def calcular():
     while True:
         print("1. suma")
