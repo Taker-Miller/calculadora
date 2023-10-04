@@ -38,3 +38,4 @@ class Calculadora:
         txt = f"resta: {self.resta()}"
         txt = f"multiplicacion: {self.multiplicacion()}"
         txt = f"division: {self.division()}"
+        return txt
