@@ -29,5 +29,12 @@ class Calculadora:
             return self.__num1 / self.__num2
         else:
             print("no se puede dividir por 0")
-
-    
+            
+#MOSTRAR RESULTADO MEDIANTE LA CLASE CALCULADORA
+    def mostrar_Resultado(self):
+        txt = f"numero 1: {self.__num1}"
+        txt = f"numero 2: {self.__num2}"
+        txt = f"suma: {self.suma()}"
+        txt = f"resta: {self.resta()}"
+        txt = f"multiplicacion: {self.multiplicacion()}"
+        txt = f"division: {self.division()}"
