@@ -13,6 +13,8 @@ class Calculadora:
     def set_numero2(self, num2):
         self.__num2 = num2
 
+    #EN ESTE CASO NO ERA NECESARIO LOS GET Y SET
+
     def suma(self):
         return self.__num1 + self.__num2
     
