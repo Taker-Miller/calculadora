@@ -36,6 +36,6 @@ class Calculadora:
         txt = f"numero 2: {self.__num2}"
         txt = f"suma: {self.suma()}"
         txt = f"resta: {self.resta()}"
-        txt = f"multiplicacion: {self.multiplicacion()}"
-        txt = f"division: {self.division()}"
+        txt = f"multiplicacion: {self.multiplicar()}"
+        txt = f"division: {self.dividir()}"
         return txt
